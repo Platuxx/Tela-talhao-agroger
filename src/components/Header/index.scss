@@ -1,0 +1,27 @@
+
+header { 
+     display: flex; 
+     padding: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     flex-shrink: 0;
+     button {
+        display: flex;
+        font-size: 14px;
+        padding: 10px;
+        background: transparent;
+        border: 0px;
+        gap: 8px;
+        align-items: center;
+        color: #c0bbbb;
+
+        &:hover {
+            background: #32CD3226;
+            color: #368467;
+        }
+     }
+
+}

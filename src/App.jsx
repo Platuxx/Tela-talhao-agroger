@@ -1,5 +1,9 @@
-import { tableHeader } from "../src/components/tableHeader/Table";
+import { Header } from "./components/Header";
+// import { FieldScreen } from "./components/Content/Talhão";
 
 export function App() {
-  return <tableHeader />;
+  return (
+    // <FieldScreen />
+    <Header />
+  );
 }

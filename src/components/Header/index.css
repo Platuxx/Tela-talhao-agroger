@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+}
+header button {
+  display: flex;
+  font-size: 14px;
+  padding: 10px;
+  background: transparent;
+  border: 0px;
+  gap: 8px;
+  align-items: center;
+  color: #c0bbbb;
+}
+header button:hover {
+  background: rgba(50, 205, 50, 0.1490196078);
+  color: #368467;
+}/*# sourceMappingURL=index.css.map */
