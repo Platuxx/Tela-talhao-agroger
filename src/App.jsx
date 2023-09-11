@@ -1,9 +1,11 @@
 import { Header } from "./components/Header";
-// import { FieldScreen } from "./components/Content/Talhão";
+import { FieldScreen } from "./components/Content/Talhão";
 
 export function App() {
   return (
-    // <FieldScreen />
-    <Header />
+    <div>
+      <Header />
+      <FieldScreen />
+    </div>
   );
 }

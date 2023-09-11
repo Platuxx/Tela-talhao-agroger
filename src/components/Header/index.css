@@ -21,4 +21,5 @@ header button {
 header button:hover {
   background: rgba(50, 205, 50, 0.1490196078);
   color: #368467;
+  border-radius: 10px;
 }/*# sourceMappingURL=index.css.map */
