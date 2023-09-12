@@ -9,6 +9,7 @@ main {
   background: #FFF;
   border: 16px #C6C6C6 solid;
   flex-direction: row;
+  border-bottom: 1px #C6C6C6 solid;
 }
 
 .title {
@@ -30,6 +31,7 @@ main {
   border-radius: 2px;
   background: #368467;
   border: 0;
+  margin-left: 865px;
 }
 
 .edit {
@@ -48,4 +50,67 @@ main {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.summary {
+  flex-direction: row;
+  display: flex;
+  border: 16px #C6C6C6 solid;
+  border-top: 0px;
+}
+
+.info1 {
+  color: #2C2E35;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 16px;
+}
+.info1 p {
+  color: #858080;
+  font-size: 24px;
+}
+
+.info2 {
+  color: #2C2E35;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 60px;
+}
+.info2 p {
+  color: #858080;
+  font-size: 24px;
+}
+
+.info3 {
+  color: #2C2E35;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 60px;
+}
+.info3 p {
+  color: #858080;
+  font-size: 24px;
+}
+
+.info4 {
+  color: #2C2E35;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 60px;
+}
+.info4 p {
+  color: #858080;
+  font-size: 24px;
 }/*# sourceMappingURL=index.css.map */
