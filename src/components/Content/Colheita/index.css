@@ -1,0 +1,27 @@
+.colects {
+  display: flex;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+}
+
+.colect1 {
+  border: 16px #E2E2E2 solid;
+}
+.colect1 span {
+  color: #9c9393;
+}
+
+.colect2 {
+  border: 16px #E2E2E2 solid;
+}
+.colect2 span {
+  color: #9c9393;
+}
+
+.colect3 {
+  border: 16px #E2E2E2 solid;
+  border-right: 323px #E2E2E2 solid;
+}
+.colect3 span {
+  color: #9c9393;
+}/*# sourceMappingURL=index.css.map */

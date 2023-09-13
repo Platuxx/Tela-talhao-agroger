@@ -1,0 +1,5 @@
+export function IndexesByActivities() {
+    return (
+        
+    )
+}
