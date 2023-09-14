@@ -1,66 +1,79 @@
-import icon1 from "../../../assets/icon1.svg"
-import icon2 from "../../../assets/icon2.svg"
-import styles from "../indexesByActivities/index.scss"
+import icon1 from "../../../assets/icon1.svg";
+import icon2 from "../../../assets/icon2.svg";
+import styles from "../indexesByActivities/index.scss";
 
 export function IndexesByActivities() {
-    return (
-        <div>
-            <header>
-                <img src={icon1} alt="" />
-                <h3>Indice por atividades</h3>
-            </header>
+  return (
+    <div>
+      <div className="header2">
+        <img src={icon1} alt="" />
+        <h3>Indice por atividades</h3>
+      </div>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Descrição</th>
-                        <th>Custos/ha</th>
-                        <th>Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>DESBROTAR</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>COLHEITA MANUAL</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>ADUBAÇÃO DE SOLO MANUAL</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>APLICAÇÃO DE HERBICIDA</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>APLICAÇÃO VIA SOLO</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>ANÁLISE DE SOLO</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>ESPALHAR PALHA</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                    <tr>
-                        <td>ESPALHAR PALHA</td>
-                        <td>R$ 1.1780,83</td>
-                        <td>R$ 2.810,00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    )
+      <table>
+        <thead className="tableHeader">
+          <tr>
+            <th>Descrição</th>
+            <th>Custos/ha</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody className="contentTable">
+          <tr>
+            <img src={icon2} alt="" sizes={24} />
+            <span>DESBROTAR</span>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td>COLHEITA MANUAL</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td className="textBig1">ADUBAÇÃO DE SOLO MANUAL</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td className="textBig2">APLICAÇÃO DE HERBICIDA</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td className="textBig3">APLICAÇÃO VIA SOLO</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td>ANÁLISE DE SOLO</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td>ESPALHAR PALHA</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+          <tr>
+            <img src={icon2} alt="" />
+            <td>ESPALHAR PALHA</td>
+            <td className="priceTable">R$ 1.1780,83</td>
+            <td className="priceTable">R$ 2.810,00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div className="graphic">
+        <img src={icon1} alt="" />
+        <h3>Gráfico</h3>
+      </div>
+    </div>
+  );
 }

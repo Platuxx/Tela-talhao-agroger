@@ -18,6 +18,7 @@ main {
   padding: 16px;
   align-items: center;
   justify-content: flex-start;
+  font-family: Roboto, sans-serif;
 }
 
 .print {
@@ -62,7 +63,7 @@ main {
 
 .info1 {
   color: #2C2E35;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

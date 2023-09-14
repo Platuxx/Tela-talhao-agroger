@@ -1,11 +1,22 @@
 .colects {
     display: flex;
-    font-family: 'Roboto' sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
+    img {
+        border: #fff 16px solid;
+    }
+    h3 {
+        padding-left: 16px;
+    }
+    span {
+        padding-left: 16px;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
 }
 
 .colect1 {
-    border: 16px #E2E2E2 solid ;
+    border: 16px #E2E2E2 solid;
     span {
         color: #9c9393
     }

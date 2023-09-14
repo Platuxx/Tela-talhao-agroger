@@ -1,7 +1,18 @@
 .colects {
   display: flex;
-  font-family: "Roboto" sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
+}
+.colects img {
+  border: #fff 16px solid;
+}
+.colects h3 {
+  padding-left: 16px;
+}
+.colects span {
+  padding-left: 16px;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .colect1 {
