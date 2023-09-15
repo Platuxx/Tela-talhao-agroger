@@ -2,7 +2,7 @@ import { Header } from "./components/Header";
 import { FieldScreen } from "./components/Content/Talhão";
 import { Harvest } from "./components/Content/Colheita";
 import { IndexesByActivities } from "./components/Content/indexesByActivities";
-// import { Graphic } from "./components/Content/Graphic";
+import { ActivityLogs } from "./components/Content/activityLogs";
 
 export function App() {
   return (
@@ -11,7 +11,7 @@ export function App() {
       <FieldScreen />
       <Harvest />
       <IndexesByActivities />
-      {/* <Graphic /> */}
+      <ActivityLogs />
     </div>
   );
 }

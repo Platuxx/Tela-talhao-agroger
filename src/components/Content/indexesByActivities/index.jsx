@@ -4,10 +4,10 @@ import styles from "../indexesByActivities/index.scss";
 
 export function IndexesByActivities() {
   return (
-    <div>
+    <div className="all">
       <div className="header2">
         <img src={icon1} alt="" />
-        <h3>Indice por atividades</h3>
+        <span>Indice por atividades</span>
       </div>
 
       <table>
@@ -69,11 +69,11 @@ export function IndexesByActivities() {
           </tr>
         </tbody>
       </table>
-
+      {/* 
       <div className="graphic">
         <img src={icon1} alt="" />
         <h3>Gráfico</h3>
-      </div>
+      </div> */}
     </div>
   );
 }

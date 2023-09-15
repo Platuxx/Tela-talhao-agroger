@@ -1,0 +1,43 @@
+.title1 {
+    border: 16px #E2E2E2 solid;
+    border-bottom: 1px #e2e2e2 solid;
+    display: flex;
+    // img {
+    //     padding-right: 10px;
+    //     padding-left: 10px;
+    // }
+    // border-bottom: 1px #c6c6c6 solid;
+}
+
+.title2 {
+    display: flex;
+    padding-left: 3px;
+    padding-right: 950px;
+}
+
+.register {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    padding: 12px 20px;
+    background: #368467;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 2px;
+    color: #FFF;
+    border: 0;
+    img {
+        justify-content: center;
+        align-items: center;
+    }
+    // 
+    // gap: 5px;
+    
+   
+    
+  
+    
+}

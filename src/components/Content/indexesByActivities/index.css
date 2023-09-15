@@ -2,6 +2,7 @@
   display: flex;
   font-size: 24px;
   padding-top: 16px;
+  width: 710px;
   border: 16px #E2E2E2 solid;
   flex-direction: row;
   gap: 10px;
@@ -23,14 +24,10 @@ table {
   padding-left: 16px;
 }
 
-table {
-  border: #8D949E 1px solid;
-  border-radius: 4px;
-}
-
 .tableHeader {
-  padding-left: 32px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   color: #8D949E;
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -42,7 +39,7 @@ table {
 .contentTable {
   font-size: 14px;
   font-family: Roboto, sans-serif;
-  padding-left: 16px;
+  padding-left: 16pxpx;
 }
 .contentTable span {
   display: flex;
@@ -68,12 +65,4 @@ table {
   padding-right: 100px;
   flex-direction: column;
   justify-content: center;
-}
-
-.priceTable {
-  padding-right: 0px;
-}
-
-.graphic {
-  display: flex;
 }/*# sourceMappingURL=index.css.map */
