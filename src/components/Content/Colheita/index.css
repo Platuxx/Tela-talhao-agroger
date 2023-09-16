@@ -18,6 +18,7 @@
 
 .colect1 {
   border: 16px #E2E2E2 solid;
+  border-right: 0px;
   padding-bottom: 30px;
 }
 .colect1 span {
@@ -26,6 +27,7 @@
 
 .colect2 {
   border: 16px #E2E2E2 solid;
+  border-right: 0px;
 }
 .colect2 span {
   color: #9c9393;
@@ -33,7 +35,7 @@
 
 .colect3 {
   border: 16px #E2E2E2 solid;
-  border-right: 221px #E2E2E2 solid;
+  border-right: 243px #E2E2E2 solid;
 }
 .colect3 span {
   color: #9c9393;

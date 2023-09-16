@@ -1,5 +1,6 @@
 .all {
   border: 16px solid #E2E2E2;
+  border-bottom: 62px #e2e2e2 solid;
   border-collapse: separate;
   border-right: 0px;
 }
@@ -8,7 +9,7 @@
   display: flex;
   font-size: 24px;
   padding-top: 16px;
-  width: 655 px;
+  width: 655px;
   border-right: 0px;
   flex-direction: row;
   gap: 10px;
@@ -35,6 +36,41 @@ table {
   width: 610px;
   height: 440px;
 }
+table .contentTable {
+  display: inherit;
+  font-size: 14px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  background: #fff;
+  font-family: Roboto, sans-serif;
+  padding-left: 16px;
+  width: 410px;
+}
+table .contentTable span {
+  display: flex;
+  width: 160px;
+  padding: 2px 16px;
+  align-items: flex-start;
+  padding-left: 8px;
+  padding-right: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+table .contentTable tr {
+  display: flex;
+  padding-bottom: 14px;
+  color: #2C2E35;
+}
+table .contentTable tr td {
+  display: flex;
+  width: 93px;
+  padding: 0px 16px;
+  align-items: flex-start;
+  padding-left: 9px;
+  padding-right: 52px;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .tableHeader {
   padding-bottom: 32px;
@@ -48,37 +84,8 @@ table {
   line-height: normal;
 }
 
-.contentTable {
-  font-size: 14px;
-  border: 10px solid #e2e2e2;
-  font-family: Roboto, sans-serif;
-  padding-left: 16px;
-  width: 410px;
-}
-.contentTable span {
-  display: flex;
-  width: 160px;
-  padding: 0px 16px;
-  align-items: flex-start;
-  padding-left: 8px;
-  padding-right: 100px;
-  flex-direction: column;
-  justify-content: center;
-}
-.contentTable tr {
-  display: flex;
-  padding-bottom: 14px;
-  color: #2C2E35;
-}
-.contentTable tr td {
-  display: flex;
-  width: 93px;
-  padding: 0px 16px;
-  align-items: flex-start;
-  padding-left: 9px;
-  padding-right: 52px;
-  flex-direction: column;
-  justify-content: center;
+.span {
+  padding-top: 13px;
 }
 
 .priceTable {
@@ -87,9 +94,9 @@ table {
 }
 
 .titleHeader1 {
-  padding-right: 233px;
+  padding-right: 250px;
 }
 
 .titleHeader2 {
-  padding-right: 83px;
+  padding-right: 86px;
 }/*# sourceMappingURL=index.css.map */

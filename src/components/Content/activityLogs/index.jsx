@@ -6,6 +6,7 @@ import { CaretLeft } from "phosphor-react";
 import { CaretRight } from "phosphor-react";
 import { FolderPlus } from "phosphor-react";
 
+
 export function ActivityLogs() {
   return (
     <div className="componente">
@@ -19,7 +20,7 @@ export function ActivityLogs() {
       </div>
       <hr className="lineLogs"/>
       <div className="conteudo">
-        <input type="text" placeholder="Atividade" />
+        <input type="text" placeholder="Atividade"  />
           <CaretLeft className="iconSla" />
           <span>Maio - 2021</span>
           <CaretRight className="iconSla"/>

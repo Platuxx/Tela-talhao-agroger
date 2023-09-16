@@ -1,4 +1,3 @@
-import React from "react";
 import icon1 from "../../../assets/icon1.svg";
 import icon2 from "../../../assets/icon2.svg";
 import styles from "../indexesByActivities/index.scss";
@@ -26,7 +25,7 @@ export function IndexesByActivities() {
                 <tr>
      
                   <img src={icon2} alt="" sizes={24} />
-                  <span>DESBROTAR</span>
+                  <span className="span">DESBROTAR</span>
                   <td className="priceTable">R$ 1.1780,83</td>
                   <td className="priceTable">R$ 2.810,00</td>
                 </tr>
