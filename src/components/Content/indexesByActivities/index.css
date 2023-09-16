@@ -1,9 +1,14 @@
+.all {
+  border: 16px solid #E2E2E2;
+  border-collapse: separate;
+  border-right: 0px;
+}
+
 .header2 {
   display: flex;
   font-size: 24px;
   padding-top: 16px;
-  width: 610px;
-  border: 16px #E2E2E2 solid;
+  width: 655 px;
   border-right: 0px;
   flex-direction: row;
   gap: 10px;
@@ -22,14 +27,19 @@
 
 table {
   padding-top: 16px;
-  padding-left: 42px;
+  padding-left: 17px;
+  border-radius: 4px;
+  margin: 12px;
+  padding-right: 12px;
+  border-top: 0px;
+  width: 610px;
+  height: 440px;
 }
 
 .tableHeader {
   padding-bottom: 32px;
   display: flex;
   padding-bottom: 10px;
-  border-bottom: 1px #C6C6C6 solid;
   color: #8D949E;
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -40,8 +50,10 @@ table {
 
 .contentTable {
   font-size: 14px;
+  border: 1px solid #e2e2e2;
   font-family: Roboto, sans-serif;
   padding-left: 16px;
+  width: 410px;
 }
 .contentTable span {
   display: flex;
@@ -80,14 +92,4 @@ table {
 
 .titleHeader2 {
   padding-right: 83px;
-}
-
-.table {
-  border-radius: 4px;
-  border: 1px #C6C6C6 solid;
-  border-left: 0px;
-  padding-right: 12px;
-  border-top: 0px;
-  width: 610px;
-  height: 440px;
 }/*# sourceMappingURL=index.css.map */

@@ -3,14 +3,13 @@ import styles from "../Graphic/index.scss"
 
 export function Graphic() {
     return (
-        <div>
+        <div className="componentGraphic">
             <div className="header3">
-                <img src={icon1} alt="" className="imgGraphic"
-                />
+                <img src={icon1} alt="" className="imgGraphic"/>
                 <span className="">Gráfico</span>
-                <hr className="horizontal"
-                />
+                <hr className="horizontal"/>
             </div>
+            
         </div>
     )
 }

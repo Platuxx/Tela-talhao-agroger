@@ -8,7 +8,7 @@ import { FolderPlus } from "phosphor-react";
 
 export function ActivityLogs() {
   return (
-    <div>
+    <div className="componente">
       <div className="title1">
         <img src={icon1} alt="" />
         <h3 className="title2">Registro de atividades</h3>
@@ -17,6 +17,7 @@ export function ActivityLogs() {
           Registrar atividade
         </button>
       </div>
+      <hr className="lineLogs"/>
       <div className="conteudo">
         <input type="text" placeholder="Atividade" />
           <CaretLeft className="iconSla" />

@@ -1,7 +1,7 @@
 .title1 {
     padding-left: 16px;
-    border: 16px #E2E2E2 solid;
-    border-bottom: 1px #e2e2e2 solid;
+    padding: 10px;
+    // border-bottom: 1px #e2e2e2 solid;
     display: flex;
     font-family: Roboto, sans-serif;
     // img {
@@ -52,9 +52,16 @@
     // gap: 5px;   
 }
 
+.componente {
+    border: 16px #E2E2E2 solid;
+    width: 96vw;
+    height: 400px;
+} 
+
 .conteudo {
     display: flex;
     padding-left: 30px;
+    padding: 10px;
     input {
         margin-right: 40px;
     }
