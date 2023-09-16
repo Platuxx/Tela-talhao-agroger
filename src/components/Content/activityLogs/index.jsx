@@ -18,13 +18,10 @@ export function ActivityLogs() {
         </button>
       </div>
       <div className="conteudo">
-        <i className="icon3">
-          <img src={icon3} alt="" />
-        </i>
         <input type="text" placeholder="Atividade" />
-        <CaretLeft />
-        <span>Maio - 2021</span>
-        <CaretRight />
+          <CaretLeft className="iconSla" />
+          <span>Maio - 2021</span>
+          <CaretRight className="iconSla"/>
       </div>
     </div>
   );
