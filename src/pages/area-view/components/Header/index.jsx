@@ -19,32 +19,31 @@ export function Header() {
       </main>
 
       <div className="summary">
-        <div className="info1">
-          <h3>Área</h3>
-          <p>2.4 ha</p>
-          <h3>Espacamento</h3>
-          <p>2.50 X 0.80</p>
-        </div>
-
-        <div className="info2">
-          <h3>Ano do plantio</h3>
-          <p>2008</p>
-          <h3>Variedade</h3>
-          <p>CATUAÍ VERMELHO</p>
-        </div>
-
-        <div className="info3">
-          <h3>Plantas por Talhoes</h3>
-          <p>12000</p>
-          <h3>Plantas por hectare</h3>
-          <p>5.000,00</p>
-        </div>
-
-        <div className="info4">
-          <h3>Data entrada</h3>
-          <p>15/11/2022</p>
-          <h3>Data carencia</h3>
-          <p>15/11/2022</p>
+        <div className="infoGeral">
+          <div>
+            <h3>Área</h3>
+            <p>2.4 ha</p>
+            <h3>Espacamento</h3>
+            <p>2.50 X 0.80</p>
+          </div>
+          <div>
+            <h3>Ano do plantio</h3>
+            <p>2008</p>
+            <h3>Variedade</h3>
+            <p>CATUAÍ VERMELHO</p>
+          </div>
+          <div>
+            <h3>Plantas por Talhoes</h3>
+            <p>12000</p>
+            <h3>Plantas por hectare</h3>
+            <p>5.000,00</p>
+          </div>
+          <div>
+            <h3>Data entrada</h3>
+            <p>15/11/2022</p>
+            <h3>Data carencia</h3>
+            <p>15/11/2022</p>
+          </div>
         </div>
       </div>
     </div>
