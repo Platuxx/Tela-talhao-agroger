@@ -1,11 +1,10 @@
-import icon1 from "../../../assets/icon1.svg";
-import icon3 from "../../../assets/icon1.svg";
-import styles from "../activityLogs/index.scss";
+import icon1 from "../../../../../src/assets/icon1.svg";
+import icon3 from "../../../../../src/assets/icon3.svg";
 import { PencilSimple } from "phosphor-react";
 import { CaretLeft } from "phosphor-react";
 import { CaretRight } from "phosphor-react";
 import { FolderPlus } from "phosphor-react";
-
+import styles from "./index.scss";
 
 export function ActivityLogs() {
   return (
@@ -18,12 +17,12 @@ export function ActivityLogs() {
           Registrar atividade
         </button>
       </div>
-      <hr className="lineLogs"/>
+      <hr className="lineLogs" />
       <div className="conteudo">
-        <input type="text" placeholder="Atividade"  />
-          <CaretLeft className="iconSla" />
-          <span>Maio - 2021</span>
-          <CaretRight className="iconSla"/>
+        <input type="text" placeholder="Atividade" />
+        <CaretLeft className="iconSla" />
+        <span>Maio - 2021</span>
+        <CaretRight className="iconSla" />
       </div>
     </div>
   );

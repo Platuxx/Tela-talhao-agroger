@@ -1,7 +1,8 @@
 import { GlobeHemisphereWest, CurrencyDollar } from "phosphor-react";
 import { LuLayoutPanelLeft } from "react-icons/lu";
+import styles from "./index.scss";
 
-export function Header() {
+export function MenuHorizontal() {
   return (
     <header>
       <button>

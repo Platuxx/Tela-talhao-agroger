@@ -2,7 +2,7 @@ import { Printer } from "phosphor-react";
 import { PencilSimple } from "phosphor-react";
 import styles from "./index.scss";
 
-export function FieldScreen() {
+export function Header() {
   return (
     <div>
       <main>
