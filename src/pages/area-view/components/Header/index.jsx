@@ -1,5 +1,6 @@
 import { Printer } from "phosphor-react";
 import { PencilSimple } from "phosphor-react";
+
 import styles from "./index.scss";
 
 export function Header() {
@@ -14,21 +15,13 @@ export function Header() {
         <button className="edit">
           <PencilSimple size={20} /> Editar Talhão
         </button>
-
-        {/* <hr className="line" /> */}
       </main>
 
       <div className="summary">
         <div className="infoGeral">
           <div>
-            <h3>Área</h3>
-            <p>2.4 ha</p>
-            <h3>Espacamento</h3>
-            <p>2.50 X 0.80</p>
-          </div>
-          <div>
-            <h3>Ano do plantio</h3>
-            <p>2008</p>
+            <h3></h3>
+            <p></p>
             <h3>Variedade</h3>
             <p>CATUAÍ VERMELHO</p>
           </div>
